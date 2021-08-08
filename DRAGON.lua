@@ -2981,7 +2981,7 @@ keyboard.inline_keyboard = {
 {{text = '',url="t.me/Youssef_offical"}},
 }
 local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Youssef_offical&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/Youssef_offical/27&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 if text == 'عسليه' or text == 'عسليه مصر' or text == 'مبرمج السورس'  then
 local Text = [[
@@ -13860,7 +13860,7 @@ local List = {
 🇪🇬𝗖𝗛 - 「@SUPER_HERO84」 💞.
 ]],
 [[
- 𝚄𝚂𝙴𝚁 𓄹?? #username
+ 𝚄𝚂𝙴𝚁 ???? #username
  𝙸𝙳  ??𓄼 #id 
  𝚂𝚃𝙰 𓄹𓄼 #stast 
  𝙼𝚂𝙶𝚂𓄹𓄼 #msgs
